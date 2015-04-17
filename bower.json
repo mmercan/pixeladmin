@@ -28,6 +28,7 @@
     "font-awesome": "^4.3.0",
     "simple-line-icons": "^1.0.0",
     "jquery-knob": "^1.2.11",
+    "nprogress": "^0.1.6",
     "pixeladminless":"https://github.com/mmercan/pixeladminLess.git",
     "notification-sounds":"https://github.com/mmercan/NotificationSounds.git"
   },
