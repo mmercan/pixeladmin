@@ -29,51 +29,52 @@
     "simple-line-icons": "^1.0.0"
   },	
   "exportsOverride": {
-  	"bootstrap": {
+  	"bootstrap": 
+  	{
   		"js": "dist/js/*.*",
   		"css": "dist/css/*.*",
   		"fonts": "dist/fonts/*.*"
-		},
-		"angular-route": {
-			"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
-		},
-		"angular-cookies": {
-			"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
-		},
-		"angular-animate": {
-			"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
-		},
-		"angular-sanitize": {
-			"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
-		},
-		"angular-resource": {
-			"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
-		},
-		"bootstrap-touch-carousel": {
-			"js": "dist/js/*.*",
-			"css": "dist/css/*.*"
-		},
-		"jquery": {
-			"": "jquery.{js,min.js,min.map}"
-		},
-		"jquery-validation": {
-			"": "jquery.validate.js"
-		},
-		"jquery-validation-unobtrusive": {
-			"": "jquery.validate.unobtrusive.{js,min.js}"
-		},
-		"fontawesome": {
-			"fonts": "fonts/*.*",
-			"css": "css/*.*"
-		},
-		"simple-line-icons": {
-			"css": "css/*.*",
-			"fonts": "fonts/*.*"
-		},
-		"hammer": {
-			"": "hammer.{js,min.js}"
-		}
+  	},
+	"angular-route": {
+		"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
+	},
+	"angular-cookies": {
+		"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
+	},
+	"angular-animate": {
+		"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
+	},
+	"angular-sanitize": {
+		"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
+	},
+	"angular-resource": {
+		"../angularModules": [ "*.js", "!*.min.js", "!index.js" ]
+	},
+	"bootstrap-touch-carousel": {
+		"js": "dist/js/*.*",
+		"css": "dist/css/*.*"
+	},
+	"jquery": {
+		"": "jquery.{js,min.js,min.map}"
+	},
+	"jquery-validation": {
+		"": "jquery.validate.js"
+	},
+	"jquery-validation-unobtrusive": {
+		"": "jquery.validate.unobtrusive.{js,min.js}"
+	},
+	"fontawesome": {
+		"fonts": "fonts/*.*",
+		"css": "css/*.*"
+	},
+	"simple-line-icons": {
+		"css": "css/*.*",
+		"fonts": "fonts/*.*"
+	},
+	"hammer": {
+		"": "hammer.{js,min.js}"
 	}
+  },
   "devDependencies": {},
   "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
   "main": [
