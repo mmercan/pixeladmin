@@ -28,7 +28,7 @@
     "font-awesome": "^4.3.0",
     "simple-line-icons": "^1.0.0",
     "jquery-knob": "^1.2.11",
-    
+    "notification-sounds":"https://github.com/mmercan/NotificationSounds.git"
   },	
   "exportsOverride": {
   	"bootstrap": 
