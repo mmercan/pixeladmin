@@ -29,7 +29,10 @@
     "simple-line-icons": "^1.0.0",
     "jquery-knob": "^1.2.11",
     "notification-sounds":"https://github.com/mmercan/NotificationSounds.git"
-  },	
+  },
+  "main": [
+    "./PixelAdmin/**/*.*"    
+  ],
   "exportsOverride": {
   	"bootstrap": 
   	{
@@ -79,10 +82,7 @@
   },
   "devDependencies": {},
   "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
-  "main": [
-    "./css/font-awesome.css",
-    "./fonts/*"
-  ],
+  
   "ignore": [
     "*/.*",
     "*.json",
