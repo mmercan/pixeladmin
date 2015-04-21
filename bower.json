@@ -36,7 +36,8 @@
     "lodash": "^3.7.0",
     "modernizr": "^2.8.3"
     "pixeladminless":"https://github.com/mmercan/pixeladminLess.git",
-    "notification-sounds":"https://github.com/mmercan/NotificationSounds.git"
+    "notification-sounds":"https://github.com/mmercan/NotificationSounds.git",
+    "Angular-directives": "https://github.com/mmercan/Angular-Directives.git"
   },
   "main": [
     "./PixelAdmin/**/*.*"    
