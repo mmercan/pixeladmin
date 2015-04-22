@@ -40,7 +40,8 @@
     "Angular-directives": "https://github.com/mmercan/Angular-Directives.git"
   },
   "main": [
-    "./PixelAdmin/**/*.*"    
+    "./PixelAdmin/**/*.*",
+   "./gulpfile.js", "./index.html","./Controller/app.init.js"  
   ],
   "exportsOverride": {
   	"bootstrap": 
