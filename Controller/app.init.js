@@ -4,32 +4,24 @@
 
 
     angular.module('app', ['ngRoute', 'component', 'directives', 'data']);
-  
-
     angular.module('app').config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
+       
         $routeProvider
-        .when('/test', { templateUrl: '/App/templates/tests.html', controller: 'testCtrl' })
-        .when('/test/:id', { templateUrl: '/App/templates/test.html', controller: 'testCtrl' })
-        .when('/preferences', { templateUrl: '/App/templates/preferences.html', controller: 'PreferencesCtrl' })
-            .otherwise({ redirectTo: '/test' });
-
-
-
-        $routeProvider
-        .when('/charts', { templateUrl: '/App/templates/PixelAdmin/charts.html', controller: 'testCtrl' })
-        .when('/completeui', { templateUrl: '/App/templates/PixelAdmin/completeui.html', controller: 'testCtrl' })
-        .when('/formcomponents', { templateUrl: '/App/templates/PixelAdmin/formComponents.html', controller: 'testCtrl' })
-        .when('/formsadvanced', { templateUrl: '/App/templates/PixelAdmin/formsadvanced.html', controller: 'testCtrl' })
-        .when('/layouts', { templateUrl: '/App/templates/PixelAdmin/layouts.html', controller: 'testCtrl' })
-        .when('/pages1', { templateUrl: '/App/templates/PixelAdmin/pages1.html', controller: 'testCtrl' })
-        .when("/elements", { templateUrl: '/App/templates/PixelAdmin/elements.html', controller: 'testCtrl' })
-        .when('/pagessignup', { templateUrl: '/App/templates/PixelAdmin/pagessignup.html', controller: 'testCtrl' })
-        .when('/pagessignin', { templateUrl: '/App/templates/PixelAdmin/pagessignin.html', controller: 'testCtrl' })
-        .when('/index', { templateUrl: '/App/templates/PixelAdmin/index.html', controller: 'testCtrl' })
-        .when('/test', { templateUrl: '/App/templates/tests.html', controller: 'testCtrl' })
-        .when('/test/:id', { templateUrl: '/App/templates/test.html', controller: 'testCtrl' })
-        .when('/angularcomponents', { templateUrl: '/App/templates/angularcomponents.html', controller: 'testCtrl' })
-        .when('/rottentomatoes', { templateUrl: '/App/templates/PixelAdmin/RottenTomatoes.html', controller: 'rottentomatoesCtrl' });
+        .when('/charts', { templateUrl: '/lib/pixeladmin/templates/charts.html', controller: 'testCtrl' })
+        .when('/completeui', { templateUrl: '/lib/pixeladmin/templates/completeui.html', controller: 'testCtrl' })
+        .when('/formcomponents', { templateUrl: '/lib/pixeladmin/templates/formComponents.html', controller: 'testCtrl' })
+        .when('/formsadvanced', { templateUrl: '/lib/pixeladmin/templates/formsadvanced.html', controller: 'testCtrl' })
+        .when('/layouts', { templateUrl: '/lib/pixeladmin/templates/layouts.html', controller: 'testCtrl' })
+        .when('/pages1', { templateUrl: '/lib/pixeladmin/templates/pages1.html', controller: 'testCtrl' })
+        .when("/elements", { templateUrl: '/lib/pixeladmin/templates/elements.html', controller: 'testCtrl' })
+        .when('/pagessignup', { templateUrl: '/lib/pixeladmin/templates/pagessignup.html', controller: 'testCtrl' })
+        .when('/pagessignin', { templateUrl: '/lib/pixeladmin/templates/pagessignin.html', controller: 'testCtrl' })
+        .when('/index', { templateUrl: '/lib/pixeladmin/templates/index.html', controller: 'testCtrl' })
+        .when('/test', { templateUrl: '/lib/pixeladmin/templates/tests.html', controller: 'testCtrl' })
+        .when('/test/:id', { templateUrl: '/lib/pixeladmin/templates/test.html', controller: 'testCtrl' })
+        .when('/angularcomponents', { templateUrl: '/lib/pixeladmin/templates/angularcomponents.html', controller: 'testCtrl' })
+        .when('/rottentomatoes', { templateUrl: '/lib/pixeladmin/templates/RottenTomatoes.html', controller: 'rottentomatoesCtrl' })
+	.otherwise({ redirectTo: '/test' });
     }]);
 
     angular.module('app').run(["storage", "$rootScope", "$route", "$location", "mainMenuService", function (storage, $rootScope, $route, $location, mainMenuService) {

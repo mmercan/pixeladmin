@@ -87,7 +87,10 @@
 		"": [ "./components*.js","./directives*.js", "./css/*.css", "./css/*.less", "./directives.html" ],
 		"templates": "./templates/*.*",
 		"Controller": "./Controller/*.*"
-	}
+	},"pixeladmin":{
+"": ["./PixelAdmin/**/*.*","./gulpfile.js", "./index.html","./Controller/app.init.js"],
+"templates": "./templates/*.*"
+}
 },
   "devDependencies": {},
   "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
