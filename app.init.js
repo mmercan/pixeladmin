@@ -7,6 +7,8 @@
     angular.module('app').config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
        
         $routeProvider
+        .when('/test', { templateUrl: '/lib/pixeladmin/templates/tests.html', controller: 'testCtrl' })
+        .when('/test/:id', { templateUrl: '/lib/pixeladmin/templates/test.html', controller: 'testCtrl' })
         .when('/charts', { templateUrl: '/lib/pixeladmin/templates/charts.html', controller: 'testCtrl' })
         .when('/completeui', { templateUrl: '/lib/pixeladmin/templates/completeui.html', controller: 'testCtrl' })
         .when('/formcomponents', { templateUrl: '/lib/pixeladmin/templates/formComponents.html', controller: 'testCtrl' })
@@ -17,8 +19,7 @@
         .when('/pagessignup', { templateUrl: '/lib/pixeladmin/templates/pagessignup.html', controller: 'testCtrl' })
         .when('/pagessignin', { templateUrl: '/lib/pixeladmin/templates/pagessignin.html', controller: 'testCtrl' })
         .when('/index', { templateUrl: '/lib/pixeladmin/templates/index.html', controller: 'testCtrl' })
-        .when('/test', { templateUrl: '/lib/pixeladmin/templates/tests.html', controller: 'testCtrl' })
-        .when('/test/:id', { templateUrl: '/lib/pixeladmin/templates/test.html', controller: 'testCtrl' })
+      
         .when('/angularcomponents', { templateUrl: '/lib/pixeladmin/templates/angularcomponents.html', controller: 'testCtrl' })
         .when('/rottentomatoes', { templateUrl: '/lib/pixeladmin/templates/RottenTomatoes.html', controller: 'rottentomatoesCtrl' })
 	.otherwise({ redirectTo: '/test' });

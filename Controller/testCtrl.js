@@ -104,8 +104,10 @@
             $scope.inventory = [];
             //
             $scope.locations = locations;
-            dataContext.Products.refresh().done(function(result) {
-                $scope.products = dataContext.Products.items.value;
+            // dataContext.Products.refresh().done(function(result) {
+
+            $http.get("/lib/pixeladmin/Productsjson.txt").then(function(result){
+                $scope.products = result.data;//dataContext.Products.items.value;
                 if ($routeParams.id && $routeParams.id != "new") {
                     $scope.productID = 743; 
                     $scope.currentItem = dataContext.Products.getLocalById($routeParams.id);

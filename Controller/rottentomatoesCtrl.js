@@ -76,7 +76,7 @@
 
             });
         }
-        $("#bcTarget").barcode("1234567890128", "ean13");
+      //  $("#bcTarget").barcode("1234567890128", "ean13");
       
         $scope.gotoBookdetail("11870085");
        

@@ -22,8 +22,9 @@ gulp.task("less", function() {
 gulp.task('thirdparty', function () {
     var rootloc = "wwwroot/lib/";
     var files = [
+rootloc + "jquery/jquery.js", rootloc + "jquery-ui.js",// rootloc + "jqueryui-touch-punch/jquery.ui.touch-punch.min.js",
         rootloc + "angular/angular.js", rootloc + "angular-route/angular-route.js", rootloc + "angular-animate/angular-animate.js",
-        rootloc + "jquery/jquery.js", rootloc + "jquery-ui.js", rootloc + "jqueryui-touch-punch/jquery.ui.touch-punch.min.js",
+        
         rootloc + "bootstrap/js/bootstrap.js", rootloc + "respond/respond.src.js",
         rootloc + "toastr/toastr.js", rootloc + "nprogress/nprogress.js", rootloc + "lodash/lodash.js",
         rootloc + "moment/moment.js", rootloc + "fullcalendar/fullcalendar.js",

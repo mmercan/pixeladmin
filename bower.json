@@ -41,7 +41,7 @@
   },
   "main": [
     "./PixelAdmin/**/*.*",
-   "./gulpfile.js", "./index.html","./app.init.js"  
+   "./gulpfile.js", "./index.html","./app.init.js" ,"./Productsjson.txt" 
   ],
   "exportsOverride": {
   	"bootstrap": 
@@ -88,7 +88,7 @@
 		"templates": "./templates/*.*",
 		"Controller": "./Controller/*.*"
 	},"pixeladmin":{
-"": ["./PixelAdmin/**/*.*","./gulpfile.js", "./index.html","./app.init.js"],
+"": ["./PixelAdmin/**/*.*","./gulpfile.js", "./index.html","./app.init.js","./Productsjson.txt"],
 "templates": "./templates/*.*",
 "Controller":"./Controller/*.*"
 }
